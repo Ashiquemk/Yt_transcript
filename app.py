@@ -8,7 +8,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 genai.configure(api_key=os.getenv('GOOGLE_API_KEY'))
 
 prompt="""You are a Youtube video summarizer. you will be taking transcript text as input and you have to summarize the entir video, and give important 
-summary in points within 250 words limit. Please provide the summary of the text given here : """
+summary in points within 500 words limit. Please provide the summary of the text given here : """
 
 def get_transcript(url):
   try:
