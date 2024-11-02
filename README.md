@@ -1,5 +1,5 @@
-# Youtube transcript
-Created a youtube transcript summarizer application which can give the summary of a youtube video.
+# Youtube transcript summarizer
+I created a YouTube transcript summarizer application that can summarize a YouTube video.
 
 Integrated **YouTube Transcript API** to retrieve video transcripts for summarization.
 
